@@ -1,0 +1,8 @@
+dsa roadmap for month
+
+day 1 - First 50 prime number, 
+	Prime number between 100 to 200,
+	Check whether number is palindrome or not,
+	Check whether two strings are anagram or not,
+	Fibonacci series up to 50 using recursion.
+
