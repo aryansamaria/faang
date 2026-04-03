@@ -1,8 +1,16 @@
 dsa roadmap for month
 
-day 1 - First 50 prime number, 
+day 1 - First 50 prime number,
 	Prime number between 100 to 200,
 	Check whether number is palindrome or not,
 	Check whether two strings are anagram or not,
 	Fibonacci series up to 50 using recursion.
 
+day 2 - First 20 armstrong number,
+	Identify the given number is paliprime or not,
+	  " ******* " Make this pattern
+		   *****
+			  ***
+			   *,
+	Check given number is perfect number or not,
+	Sum of digit until single digit.
