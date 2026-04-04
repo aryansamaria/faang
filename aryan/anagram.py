@@ -1,14 +1,16 @@
 def anagram(s, t):
-  temp_set = set()
-  temp_set2 = set()
-  for i in s.lower():
-    temp_set.add(i)
-  for j in t.lower():
-    temp_set2.add(j)
-  if temp_set2 == temp_set:
-    return True
+  summ = 0
+  sum2 = 0
+  if len(s)==len(t):
+    for i in range(len(s)):
+      summ+=ord(s[i])
+      sum2+=ord(t[i])
+    if summ == sum2:
+      return True
+    else:
+      False
   else:
-    return False
+    False
 
 test_str = input("enter the string you want to check \n")
 test_str2 = input("enter the another string you want to check \n")
